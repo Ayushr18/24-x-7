@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* FourthPage.css */
+
+.liberary-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    font-family: poppins,Arial, sans-serif;
+    margin: auto;
+    margin-top: 5%;
+
+    .left-container {
+        margin-left: 4%;
+        .liberary-header {
+            font-size: xx-large;
+            font-weight:600;
+            color: #0A2540;
+        }
+
+        .lib {
+            font-size: xx-large;
+            font-weight:600;
+            color: #0A2540;
+            margin-left: 18%;
+
+        }
+
+        .liberary-heading2 {
+            margin-top: 7%;
+            font-size: 20px;
+            font-weight: 500;
+            color: #FF6300;
+        }
+
+        .liberary-description {
+            margin-top: 2%;
+            font-size: small;
+            font-weight:700;
+        }
+
+        .library-description2 {
+            margin-top: 2%;
+            font-size:small
+        }
+    }
+
+    .right-container {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        margin-top: 6%;
+
+        .library-images {
+            margin-top: 2%;
+        }
+
+        .library-image2 {
+            height: '450px';
+            width: '210px';
+        }
+    }
+}
+

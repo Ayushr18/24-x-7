@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255,255,255);
+    background: linear-gradient(352deg, rgba(255,255,255,1) 46%, rgba(63,94,251,1) 46%, rgba(255,99,0,1) 80%);
+    .left-section{
+        flex:5;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10%;
+        .heading{
+            font-family: 'poppins', Courier, monospace;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            span{
+                color: #01202B;
+                font-size: 70px;
+                text-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;;
+            }
+        }
+
+        .hero-description {
+            margin-top: 5%;
+            font-family: 'poppins', Courier, monospace;;
+            font-weight: 600;
+        }
+        .hero-subdescription{
+            margin-top: 5%;
+            font-family: 'poppins', Courier, monospace;;
+            font-weight: 600;
+        }
+        .btn{
+            button{
+                margin: 5% 0%;
+                border:none;
+                padding: 5px 20px;
+                border-radius: 15px;
+                background-color: #0A2540;
+                span{
+                    font-family: 'poppins', Courier, monospace;
+                    font-weight: 500;
+                    background: #ffffff;
+                    background: linear-gradient(to right, #ffffff 0%, #CF1512 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }  
+    .right-side {
+        flex:6;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .mobileimage{
+            flex:4;
+            z-index: 1;
+            img{
+                height: 80%;
+                width: 80%;
+                margin-left: 40%;
+                border-radius: 20px;
+                margin-top: 10px;
+            }
+        }
+        .desktopimage{
+            flex:6;
+            object-fit: cover;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }    
+}
+   
+
