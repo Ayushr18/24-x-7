@@ -1,5 +1,6 @@
 import '../HeroPage.css';
 function HeroPage() {
+    const heroPge = []
     return(
         <>
             <div className="hero-container">
